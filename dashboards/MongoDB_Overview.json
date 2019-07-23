@@ -55,28 +55,6 @@
             "includeVars": true,
             "keepTime": true,
             "tags": [
-                "OS"
-            ],
-            "targetBlank": false,
-            "title": "OS",
-            "type": "dashboards"
-        },
-        {
-            "asDropdown": true,
-            "includeVars": true,
-            "keepTime": true,
-            "tags": [
-                "MySQL"
-            ],
-            "targetBlank": false,
-            "title": "MySQL",
-            "type": "dashboards"
-        },
-        {
-            "asDropdown": true,
-            "includeVars": true,
-            "keepTime": true,
-            "tags": [
                 "MongoDB"
             ],
             "targetBlank": false,
@@ -88,43 +66,10 @@
             "includeVars": true,
             "keepTime": true,
             "tags": [
-                "PostgreSQL"
+                "Services"
             ],
             "targetBlank": false,
-            "title": "PostgreSQL",
-            "type": "dashboards"
-        },
-        {
-            "asDropdown": true,
-            "includeVars": true,
-            "keepTime": true,
-            "tags": [
-                "HA"
-            ],
-            "targetBlank": false,
-            "title": "HA",
-            "type": "dashboards"
-        },
-        {
-            "asDropdown": true,
-            "includeVars": true,
-            "keepTime": true,
-            "tags": [
-                "Insight"
-            ],
-            "targetBlank": false,
-            "title": "Insight",
-            "type": "dashboards"
-        },
-        {
-            "asDropdown": true,
-            "includeVars": true,
-            "keepTime": true,
-            "tags": [
-                "PMM"
-            ],
-            "targetBlank": false,
-            "title": "PMM",
+            "title": "Services",
             "type": "dashboards"
         }
     ],
@@ -1401,7 +1346,8 @@
     "style": "dark",
     "tags": [
         "MongoDB",
-        "Percona"
+        "Percona",
+        "Services"
     ],
     "templating": {
         "list": [
