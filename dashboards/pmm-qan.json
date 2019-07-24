@@ -5,18 +5,27 @@
                 "builtIn": 1,
                 "datasource": "-- Grafana --",
                 "enable": true,
-                "hide": true,
+                "hide": false,
                 "iconColor": "#e0752d",
                 "limit": 100,
-                "matchAny": true,
                 "name": "PMM Annotations",
                 "showIn": 0,
                 "tags": [
-                    "pmm_annotation",
-                    "$host",
-                    "$service"
+                    "pmm_annotation"
                 ],
                 "type": "tags"
+            },
+            {
+                "builtIn": 1,
+                "datasource": "-- Grafana --",
+                "enable": true,
+                "hide": true,
+                "iconColor": "#6ed0e0",
+                "limit": 100,
+                "name": "Annotations & Alerts",
+                "showIn": 0,
+                "tags": [],
+                "type": "dashboard"
             }
         ]
     },

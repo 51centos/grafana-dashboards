@@ -66,6 +66,17 @@
             "includeVars": true,
             "keepTime": true,
             "tags": [
+                "PMM"
+            ],
+            "targetBlank": false,
+            "title": "PMM",
+            "type": "dashboards"
+        },
+        {
+            "asDropdown": true,
+            "includeVars": true,
+            "keepTime": true,
+            "tags": [
                 "Services"
             ],
             "targetBlank": false,
@@ -1156,8 +1167,7 @@
     "style": "dark",
     "tags": [
         "Percona",
-        "Insight",
-        "Services"
+        "Insight"
     ],
     "templating": {
         "list": [
